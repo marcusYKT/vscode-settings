@@ -1,52 +1,54 @@
 {
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.snippetSuggestions": "top",
-    "editor.tabSize": 2,
-    "editor.letterSpacing": 0.5,
-    "editor.showFoldingControls": "always",
-    "editor.wordWrap": "on",
-    "editor.tabCompletion": true,
-    "editor.quickSuggestions": {
-      "other": true,
-      "comments": false,
-      "strings": true
-    },
-    "emmet.triggerExpansionOnTab": true,
-    "emmet.includeLanguages": { "liquid": "html" },
-    "explorer.autoReveal": false,
-    "files.associations": {
-      "*.scss.liquid": "scss",
-      "*.css.liquid": "css",
-      "*.js.liquid": "javascript",
-      "*.liquid": "liquid"
-    },
-    "sublimeTextKeymap.promptV3Features": true,
-    "search.useIgnoreFiles": true,
-    "window.title": "${rootName}${separator}${activeEditorLong}",
-    "window.restoreFullscreen": true,
-    "workbench.editor.enablePreview": false,
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.editor.tabSizing": "shrink",
-    "workbench.colorCustomizations": {
-      "editorIndentGuide.activeBackground": "#25E8F2",
-      // "editor.selectionHighlightBackground": "#00ff2a",
-      // "editor.selectionBackground": "#88aaff"
-    },
-    "window.zoomLevel": 0,
-    "workbench.activityBar.visible": true,
-    "editor.minimap.enabled": false,
-    "editor.renderWhitespace": "none",
-    "[liquid]": {},
-    "liquid.format": true,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "workbench.colorTheme": "Cobalt2",
-    "editor.snippetSuggestions": "top",
-    // prettier
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": false,
-    // Enable per-language
-    "[javascript]": {
-      "editor.formatOnSave": true,
-    }
-  }
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.tabSize": 2,
+  "editor.letterSpacing": 0.5,
+  "editor.showFoldingControls": "always",
+  "editor.wordWrap": "on",
+  "editor.tabCompletion": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": { "liquid": "html" },
+  "explorer.autoReveal": false,
+  "files.associations": {
+    "*.scss.liquid": "scss",
+    "*.css.liquid": "css",
+    "*.js.liquid": "javascript",
+    "*.liquid": "liquid"
+  },
+  "sublimeTextKeymap.promptV3Features": true,
+  "search.useIgnoreFiles": true,
+  "window.title": "${rootName}${separator}${activeEditorLong}",
+  "window.restoreFullscreen": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.colorCustomizations": {
+    "editorIndentGuide.activeBackground": "#25E8F2"
+    // "editor.selectionHighlightBackground": "#00ff2a",
+    // "editor.selectionBackground": "#88aaff"
+  },
+  "window.zoomLevel": 0,
+  "workbench.activityBar.visible": true,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "none",
+  "[liquid]": {},
+  "liquid.format": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "Cobalt2",
+  "editor.snippetSuggestions": "top",
+  // prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": false,
+  // Enable per-language
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+}
